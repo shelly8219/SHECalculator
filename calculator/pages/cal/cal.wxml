@@ -1,0 +1,39 @@
+<view class="content">
+   <view class="screen">
+   <!--初始显示0  -->
+      {{screenData}}
+   </view>
+     <view class="btngroup">
+      <view class="item orange" bindtap="clickBtn" id="{{id1}}">退格</view>
+      <view class="item orange" bindtap="clickBtn" id="{{id2}}">清屏</view>
+      <view class="item orange" bindtap="clickBtn" id="{{id3}}">＋/-</view>
+      <view class="item orange" bindtap="clickBtn" id="{{id4}}">＋</view>
+      
+   </view>
+   <view class="btngroup">
+      <view class="item gray" bindtap="clickBtn" id="{{id7}}">7</view>
+      <view class="item gray" bindtap="clickBtn" id="{{id6}}">8</view>
+      <view class="item gray" bindtap="clickBtn" id="{{id5}}">9</view>  
+      <view class="item orange" bindtap="clickBtn" id="{{id17}}">－</view>
+   </view>
+    <view class="btngroup">
+      <view class="item gray" bindtap="clickBtn" id="{{id10}}">4</view>
+      <view class="item gray" bindtap="clickBtn" id="{{id9}}">5</view>
+      <view class="item gray" bindtap="clickBtn" id="{{id8}}">6</view>
+      <view class="item orange" bindtap="clickBtn" id="{{id18}}">*</view>
+      
+   </view>
+   <view class="btngroup">
+      <view class="item gray" bindtap="clickBtn" id="{{id13}}">1</view>
+      <view class="item gray" bindtap="clickBtn" id="{{id12}}">2</view>
+      <view class="item gray" bindtap="clickBtn" id="{{id11}}">3</view>
+      
+       <view class="item orange" bindtap="clickBtn" id="{{id19}}">/</view> 
+   </view>
+   <view class="btngroup">
+      <view class="item gray" bindtap="clickBtn" id="{{id15}}">.</view>
+      <view class="item gray" bindtap="clickBtn" id="{{id14}}">0</view>
+      <view class="item gray" bindtap="clickBtn" id="{{id16}}">00</view>
+      <view class="item orange" bindtap="clickBtn" id="{{id20}}">=</view>
+   </view>
+</view>
